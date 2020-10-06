@@ -9,7 +9,6 @@
             "email": "fabriziomanca87@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"fabriziomanca\\phpupload\\" : "src/"}
     },
