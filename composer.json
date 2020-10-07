@@ -1,6 +1,6 @@
 {
     "name": "fabriziomanca/phpupload",
-    "description": "File upload manager",
+    "description": "File upload manager tool",
     "type": "library",
     "license": "MIT",
     "authors": [
