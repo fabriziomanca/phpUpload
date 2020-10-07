@@ -11,6 +11,7 @@ class phpUpload{
     public  $FileName;
     public  $extension;
     public  $fileSize;
+    public  $output;
 
     public function __construct($file){
 
@@ -73,8 +74,10 @@ class phpUpload{
         }
         else{
 
+            $this->output = $this->FileName . "." . $this->extension;
+
             return true;
-            
+
         }
         
 
