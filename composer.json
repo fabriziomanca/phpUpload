@@ -1,6 +1,6 @@
 {
     "name": "fabriziomanca/phpupload",
-    "description": "File upload maager\u001b[D\u001b[D\u001b[D\u001b[Dnager",
+    "description": "File upload manager",
     "type": "library",
     "license": "MIT",
     "authors": [
