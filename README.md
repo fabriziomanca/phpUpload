@@ -1,6 +1,6 @@
 # Php Upload Manager
 
-[Php Upload Repository][repolink]
+The Repo: [Php Upload Repository][repolink]
 
 Manage your upload as easiest as possible!
 
