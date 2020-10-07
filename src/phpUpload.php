@@ -71,6 +71,11 @@ class phpUpload{
             throw new Exception("Error with the moving!");
 
         }
+        else{
+
+            return true;
+            
+        }
         
 
     }
