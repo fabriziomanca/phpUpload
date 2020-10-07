@@ -77,7 +77,7 @@ class phpUpload{
             $this->output = $this->FileName . "." . $this->extension;
 
             return true; 
- 
+
         }
         
 
