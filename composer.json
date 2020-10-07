@@ -1,6 +1,6 @@
 {
     "name": "fabriziomanca/phpupload",
-    "description": "File upload manager",
+    "description": "File upload maager\u001b[D\u001b[D\u001b[D\u001b[Dnager",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,6 +9,7 @@
             "email": "fabriziomanca87@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"fabriziomanca\\phpupload\\" : "src/"}
     },
