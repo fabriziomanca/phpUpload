@@ -16,13 +16,7 @@ Via [Composer][dc1]:
 ## Usage
 <br/>
 
-#### Basic usage
-```php
-use fabriziomanca\phpupload\phpUpload;
-$pUp = new phpUpload($_FILES['file']);
-```
-
-#### Advanced usage
+#### Usage
 ```php
 use fabriziomanca\phpupload\phpUpload;
 $pUp = new phpUpload($_FILES['file']);
@@ -35,5 +29,11 @@ $pUp->run('destination/folder'); // Move the file to a specific folder
 
 <br/>
 
+#### License
+tesseract-ocr-for-php is released under the [MIT License][mit].
+
+<br/>
+
 [dc1]: http://getcomposer.org/
 [repolink]: https://github.com/fabriziomanca/phpUpload
+[mit]: https://github.com/fabriziomanca/phpUpload/blob/master/LICENSE
