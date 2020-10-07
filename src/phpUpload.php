@@ -52,13 +52,26 @@ class phpUpload{
 
     }
 
-    public function run($destination){
+    public function run($destination, $replaceSameName){
+
+        if(!is_dir($destination)){
+
+            throw new Exception("Error, the folder does not exists!");
+
+        }
+
+        if(file_exists($destination . "/" . $this->FileName . "." . $this->extension) && !$replaceSameName){
+
+            throw new Exception("Error, the file already exists!");
+
+        }
 
         if(!move_uploaded_file($this->upFile['tmp_name'], $destination . "/" . $this->FileName . "." . $this->extension)){
 
             throw new Exception("Error with the moving!");
 
         }
+        
 
     }
 
