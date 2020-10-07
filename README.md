@@ -16,7 +16,6 @@ Via [Composer][dc1]:
 ## Usage
 <br/>
 
-#### Usage
 ```php
 use fabriziomanca\phpupload\phpUpload;
 $pUp = new phpUpload($_FILES['file']);
