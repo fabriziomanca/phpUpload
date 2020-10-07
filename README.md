@@ -1,8 +1,6 @@
 # Php Upload Manager
 
-The Repo: [Php Upload Repository][repolink]
-
-Manage your upload as easiest as possible!
+Manage your uploads as easiest as possible!
 
 ## Installation
 <br/>
@@ -34,5 +32,4 @@ tesseract-ocr-for-php is released under the [MIT License][mit].
 <br/>
 
 [dc1]: http://getcomposer.org/
-[repolink]: https://github.com/fabriziomanca/phpUpload
 [mit]: https://github.com/fabriziomanca/phpUpload/blob/master/LICENSE
